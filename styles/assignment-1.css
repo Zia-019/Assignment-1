@@ -55,6 +55,28 @@
     border-radius: 10px;
 }
 
+.btn-secondary{
+    background-color:#4E47FF;
+    font-size: 16px;
+    font-weight: 200px;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-long{
+    display: block;
+    background-color:#4E47FF;
+    font-size: 16px;
+    font-weight: 200px;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
 .img-styles{
     border-radius: 48px;
 }
@@ -145,4 +167,122 @@ main{
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.review{
+    margin: 137px 0px;
+}
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.review-section{
+    display: flex;
+    /* gap: 20px; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.review-content{
+    border: 1px solid rgba(255, 184, 5, 1);
+    border-radius: 14px;
+    /* background-color: rgba(255, 255, 255, 0.5);
+    fill: rgba(255, 255, 255, 0.5);
+    stroke: rgba(242, 237, 237, 1); */
+    padding: 24px;
+    gap: 24px;
+}
+
+.review-details{
+    margin: 24px 0;
+}
+
+.review-comment-title{
+    font-weight: 650;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.review-rating{
+    margin: 24px 0;
+}
+
+.reviewer-content{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviewer-photo{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviewer-name{
+    color: rgba(117, 117, 117, 1);
+}
+
+.reviewer-date{
+    color: rgba(179, 179, 179, 1);
+}
+
+.aim-content{
+    align-items: center;
+    gap: 20px;
+    padding: 71px 150px;
+}
+
+.aim-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.aim-comment{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.aim-image{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+.newsletter-content{
+    display: flex;
+    margin: 93px 14px 0;
+    padding: 71px 0;
+    gap: 115px; 
+    align-items: center;
+}
+
+.newsletter-description{
+    /* width: 50%; */
+    /* margin-left: 115px; */
+}
+
+.newsletter-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.newsletter-text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+main input[type="text"], main input[type="email"], main textarea{
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    /* border: none; */
+    max-height: 70px;
+    width: 100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    margin-bottom: 19px;
+    resize: none;
 }
